@@ -196,6 +196,14 @@
             <artifactId>commons-io</artifactId>
             <version>1.4</version>
         </dependency>
+        
+        <!-- https://mvnrepository.com/artifact/com.google.api-client/google-api-client -->
+        <dependency>
+            <groupId>com.google.api-client</groupId>
+            <artifactId>google-api-client</artifactId>
+            <version>1.30.10</version>
+        </dependency>
+
 
     </dependencies>
 

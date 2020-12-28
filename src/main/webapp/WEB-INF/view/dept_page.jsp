@@ -72,13 +72,12 @@
                                 </table> 
                             </fieldset>
                         </form>
-                    </td>
-                    <td valign="top">
+                     <td valign="top">
                         <!-- 圖表 -->
                         <form class="pure-form">
                             <fieldset>
-                                <legend>OOO chart</legend>
-
+                                <legend>Dept chart</legend>
+                                <%@include file="chart/dept_chart.jspf" %>
                             </fieldset>
                         </form>
                     </td>

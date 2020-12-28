@@ -12,6 +12,7 @@ import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Repository;
 
 @Repository
+@Transactional
 public class CompanyDao {
     @Autowired
     private SessionFactory sessionFactory;
